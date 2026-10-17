@@ -1,0 +1,1033 @@
+{
+ "_meta": {
+  "schema_version": 1,
+  "generator": "tools/as2c/gen_hints.py",
+  "source": "DefineFunction / DefineFunction2 headers of the original SWF scripts (game-specific units only; the 42 stock Macromedia component units are not part of this repository)",
+  "scripts": 12,
+  "functions": 84,
+  "content_sha256": "7cdcf8f35888c65ed58632a0d125ee7adccd86804f1337bafde27ca9576b7855"
+ },
+ "Additive": [
+  {
+   "kind": "F2",
+   "regs": 10,
+   "flags": 281,
+   "params": [
+    [
+     6,
+     "par_targetObj"
+    ],
+    [
+     4,
+     "par_linkage"
+    ],
+    [
+     9,
+     "par_spawnX"
+    ],
+    [
+     8,
+     "par_spawnY"
+    ],
+    [
+     7,
+     "par_depth"
+    ],
+    [
+     5,
+     "par_linkedSpawner"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  }
+ ],
+ "BarmanHand": [
+  {
+   "kind": "F2",
+   "regs": 8,
+   "flags": 41,
+   "params": [
+    [
+     4,
+     "par_targetClip"
+    ],
+    [
+     5,
+     "par_originX"
+    ],
+    [
+     6,
+     "par_originY"
+    ],
+    [
+     7,
+     "par_depth"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 297,
+   "params": [
+    [
+     3,
+     "par_targetObj"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 5,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 9,
+   "flags": 42,
+   "params": [
+    [
+     1,
+     "par_moveObj"
+    ],
+    [
+     5,
+     "par_tarX"
+    ],
+    [
+     6,
+     "par_tarY"
+    ],
+    [
+     7,
+     "par_damping"
+    ],
+    [
+     8,
+     "par_minDistance"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 297,
+   "params": []
+  }
+ ],
+ "Bottle": [
+  {
+   "kind": "F2",
+   "regs": 8,
+   "flags": 297,
+   "params": [
+    [
+     4,
+     "par_targetObj"
+    ],
+    [
+     3,
+     "par_linkage"
+    ],
+    [
+     7,
+     "par_spawnX"
+    ],
+    [
+     6,
+     "par_spawnY"
+    ],
+    [
+     5,
+     "par_depth"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  }
+ ],
+ "Cam": [
+  {
+   "kind": "F2",
+   "regs": 5,
+   "flags": 41,
+   "params": [
+    [
+     4,
+     "par_worldClip"
+    ],
+    [
+     2,
+     "par_stageWidth"
+    ],
+    [
+     3,
+     "par_stageHeight"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 41,
+   "params": [
+    [
+     2,
+     "par_lockToEnt"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 41,
+   "params": [
+    [
+     2,
+     "par_magnitude"
+    ],
+    [
+     3,
+     "par_wbConstraint"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 41,
+   "params": []
+  }
+ ],
+ "CocktailGame": [
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 297,
+   "params": [
+    [
+     3,
+     "par_rootLevel"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 298,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 297,
+   "params": []
+  },
+  {
+   "kind": "F1",
+   "regs": null,
+   "flags": null,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 5,
+   "flags": 42,
+   "params": [
+    [
+     3,
+     "par_depthArr"
+    ],
+    [
+     2,
+     "par_minDepth"
+    ],
+    [
+     4,
+     "par_maxDepth"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 42,
+   "params": [
+    [
+     2,
+     "par_depthArr"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 42,
+   "params": [
+    [
+     1,
+     "par_depthArr"
+    ],
+    [
+     2,
+     "par_pushVal"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 42,
+   "params": [
+    [
+     2,
+     "min"
+    ],
+    [
+     3,
+     "max"
+    ]
+   ]
+  },
+  {
+   "kind": "F1",
+   "regs": null,
+   "flags": null,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 12,
+   "flags": 41,
+   "params": [
+    [
+     6,
+     "par_linkageArray"
+    ],
+    [
+     8,
+     "par_bottlesPerShelf"
+    ],
+    [
+     7,
+     "par_startX"
+    ],
+    [
+     11,
+     "par_startY"
+    ],
+    [
+     10,
+     "par_spacingX"
+    ],
+    [
+     9,
+     "par_spacingY"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 41,
+   "params": [
+    [
+     2,
+     "par_newState"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 297,
+   "params": []
+  }
+ ],
+ "DoubleParticleSpawner": [
+  {
+   "kind": "F2",
+   "regs": 26,
+   "flags": 41,
+   "params": [
+    [
+     24,
+     "par_targetClip"
+    ],
+    [
+     16,
+     "par_depth"
+    ],
+    [
+     10,
+     "par_updateChildAtStep"
+    ],
+    [
+     13,
+     "par_spawnerX"
+    ],
+    [
+     11,
+     "par_spawnerY"
+    ],
+    [
+     7,
+     "par_normalForceX"
+    ],
+    [
+     6,
+     "par_normalForceY"
+    ],
+    [
+     8,
+     "par_particleLinkage"
+    ],
+    [
+     14,
+     "par_numParticles"
+    ],
+    [
+     25,
+     "par_childLifeSpan"
+    ],
+    [
+     15,
+     "par_childParticleDamping"
+    ],
+    [
+     3,
+     "par_maxChildXVel"
+    ],
+    [
+     4,
+     "par_maxChildYVel"
+    ],
+    [
+     21,
+     "par_childMass"
+    ],
+    [
+     23,
+     "par_maxIterations"
+    ],
+    [
+     5,
+     "par_variableVel"
+    ],
+    [
+     18,
+     "par_hasRandomScale"
+    ],
+    [
+     17,
+     "par_childFadeOnDie"
+    ],
+    [
+     22,
+     "par_isExplosion"
+    ],
+    [
+     19,
+     "par_isDouble"
+    ],
+    [
+     20,
+     "par_childShrinkOnDie"
+    ],
+    [
+     9,
+     "par_pushLocked"
+    ],
+    [
+     12,
+     "par_updateLocked"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 42,
+   "params": [
+    [
+     1,
+     "par_min"
+    ],
+    [
+     2,
+     "par_max"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 42,
+   "params": [
+    [
+     2,
+     "par_depthArray"
+    ],
+    [
+     1,
+     "par_value"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 42,
+   "params": [
+    [
+     1,
+     "par_depthArray"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 6,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 5,
+   "flags": 41,
+   "params": [
+    [
+     4,
+     "par_targetParticle"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 6,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  }
+ ],
+ "Particle": [
+  {
+   "kind": "F2",
+   "regs": 15,
+   "flags": 41,
+   "params": [
+    [
+     4,
+     "par_targetClip"
+    ],
+    [
+     14,
+     "par_spawnX"
+    ],
+    [
+     13,
+     "par_spawnY"
+    ],
+    [
+     12,
+     "par_scale"
+    ],
+    [
+     9,
+     "par_xvel"
+    ],
+    [
+     7,
+     "par_yvel"
+    ],
+    [
+     10,
+     "par_rotStep"
+    ],
+    [
+     6,
+     "par_mass"
+    ],
+    [
+     8,
+     "par_particleLinkage"
+    ],
+    [
+     5,
+     "par_lifeSpan"
+    ],
+    [
+     11,
+     "par_depth"
+    ],
+    [
+     3,
+     "par_tintParticles"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  }
+ ],
+ "Shaker": [
+  {
+   "kind": "F2",
+   "regs": 4,
+   "flags": 41,
+   "params": [
+    [
+     3,
+     "par_spawnX"
+    ],
+    [
+     2,
+     "par_spawnY"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 5,
+   "flags": 297,
+   "params": [
+    [
+     4,
+     "par_fluidAmount"
+    ],
+    [
+     3,
+     "par_pointage"
+    ]
+   ]
+  }
+ ],
+ "net.pluginmedia.PIM_Colour": [
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 26,
+   "params": [
+    [
+     2,
+     "target"
+    ]
+   ]
+  },
+  {
+   "kind": "F1",
+   "regs": null,
+   "flags": null,
+   "params": [
+    [
+     0,
+     "col"
+    ],
+    [
+     0,
+     "percent"
+    ],
+    [
+     0,
+     "resetMode"
+    ]
+   ]
+  },
+  {
+   "kind": "F1",
+   "regs": null,
+   "flags": null,
+   "params": [
+    [
+     0,
+     "value"
+    ],
+    [
+     0,
+     "resetMode"
+    ]
+   ]
+  }
+ ],
+ "reactionSplashParticleSpawner": [
+  {
+   "kind": "F2",
+   "regs": 27,
+   "flags": 25,
+   "params": [
+    [
+     24,
+     "par_targetClip"
+    ],
+    [
+     16,
+     "par_depth"
+    ],
+    [
+     10,
+     "par_updateChildAtStep"
+    ],
+    [
+     13,
+     "par_spawnerX"
+    ],
+    [
+     11,
+     "par_spawnerY"
+    ],
+    [
+     8,
+     "par_normalForceX"
+    ],
+    [
+     7,
+     "par_normalForceY"
+    ],
+    [
+     14,
+     "par_numParticles"
+    ],
+    [
+     25,
+     "par_childLifeSpan"
+    ],
+    [
+     15,
+     "par_childParticleDamping"
+    ],
+    [
+     4,
+     "par_maxChildXVel"
+    ],
+    [
+     5,
+     "par_maxChildYVel"
+    ],
+    [
+     21,
+     "par_childMass"
+    ],
+    [
+     23,
+     "par_maxIterations"
+    ],
+    [
+     6,
+     "par_variableVel"
+    ],
+    [
+     18,
+     "par_hasRandomScale"
+    ],
+    [
+     17,
+     "par_childFadeOnDie"
+    ],
+    [
+     22,
+     "par_isExplosion"
+    ],
+    [
+     19,
+     "par_isDouble"
+    ],
+    [
+     20,
+     "par_childShrinkOnDie"
+    ],
+    [
+     9,
+     "par_pushLocked"
+    ],
+    [
+     12,
+     "par_updateLocked"
+    ],
+    [
+     26,
+     "par_triggeredBy"
+    ]
+   ]
+  },
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  },
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 41,
+   "params": []
+  }
+ ],
+ "sprite387_miguel_frameaction_5": [
+  {
+   "kind": "F2",
+   "regs": 3,
+   "flags": 298,
+   "params": []
+  }
+ ],
+ "sprite527_frameCounter_frameaction": [
+  {
+   "kind": "F2",
+   "regs": 2,
+   "flags": 41,
+   "params": []
+  }
+ ]
+}

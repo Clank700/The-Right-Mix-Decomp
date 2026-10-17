@@ -1,0 +1,9 @@
+# Keep source files as text with LF in the repository; Windows scripts keep CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.rc text eol=crlf
+*.png binary
+*.ico binary
+*.zip binary
+*.jar binary

@@ -1,0 +1,1 @@
+void openUrlNative(String url) {}

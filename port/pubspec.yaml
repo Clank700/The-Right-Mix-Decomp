@@ -1,0 +1,24 @@
+name: the_right_mix
+description: "Native port of The Right Mix (a 2004-era Flash cocktail game) for Windows and Android"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/game.json
+    - assets/images/
+    - assets/sounds/

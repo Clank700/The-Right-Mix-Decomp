@@ -1,0 +1,79 @@
+# =====================================================================================================================
+# NEVER COMMIT: the game, and anything extracted from it or rendered from its artwork / sound.
+# This repository is "decompiled source + tools + ports (code only)". The user builds the ports from their own
+# bartender.swf with `python rightmix.py build --swf bartender.swf`. Run `python tools/publish_check.py` before pushing.
+# =====================================================================================================================
+/bartender.swf
+*.swf
+*.swf.*
+/decomp/
+/port/assets/
+/fixtures/ffdec/sprites/
+/work/
+/build/
+/dist/
+/.rightmix/
+
+# app icons are rendered from the game's artwork at build time (tools/make_icons.py)
+/port/android/app/src/main/res/mipmap-*/ic_launcher*.png
+/port/windows/runner/resources/app_icon.ico
+/docs/icon.png
+
+# screenshots show the game's artwork
+/docs/screenshots/
+/docs/verification/android/*.png
+/docs/verification/windows/*.png
+
+# recorded traces / results / reference-frame annotations are data derived from the game, not source code
+# (tools/diff/plans.json and scenarios*.json ARE published: they contain inputs only, no recorded output)
+/docs/verification/
+/port/test/golden/trace.txt
+/port/test/render_known_exceptions.json
+
+# no bundled image assets, including the stock Flutter web-shell icons
+/port/web/favicon.png
+/port/web/icons/
+
+# audio / images / archives / binaries that could carry game content (the few legitimate ones are listed in publish_check.py)
+*.mp3
+*.wav
+*.ogg
+*.apk
+*.zip
+*.aab
+*.exe
+*.msi
+*.obj
+*.pdb
+
+# =====================================================================================================================
+# downloaded toolchains and local state
+# =====================================================================================================================
+/tools/flutter/
+/tools/jdk/
+/tools/ffdec/
+/tools/android-cmdline/
+/tools/ruffle/
+/tools/ruffle_dl/
+/tools/assetc/bin/
+/port/build/
+/port/.dart_tool/
+/port/.flutter-plugins
+/port/.flutter-plugins-dependencies
+/port/.packages
+/port/android/.gradle/
+/port/android/local.properties
+/port/android/app/.cxx/
+/port/windows/flutter/ephemeral/
+.idea/
+*.iml
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+/tools/harness/
+/HANDOFF_TO_GPT.md
+
+# private research archive: the complete 82-unit reconstruction (incl. the 42 stock Macromedia component units) stays local
+/local_archive/

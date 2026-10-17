@@ -1,0 +1,2 @@
+# Python packages used by rightmix.py and the tools (Python 3.9+)
+pillow>=10

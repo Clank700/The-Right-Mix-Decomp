@@ -1,0 +1,6 @@
+{
+ "scenarios": [
+  {"name": "smoke", "seed": 12345, "frames": 200,
+   "ops": [[3, "start"], [20, ["pick", 14]], [80, "pourDown"], [140, "pourUp"]]}
+ ]
+}

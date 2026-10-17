@@ -1,0 +1,100 @@
+{
+ "Particle": {
+  "Particle": {
+   "tintColor": 2
+  }
+ },
+ "Cam": {
+  "update": {
+   "deltaX": 3,
+   "deltaY": 2
+  }
+ },
+ "DoubleParticleSpawner": {
+  "DoubleParticleSpawner": {
+   "poolDepth": 2
+  },
+  "pushParticle": {
+   "scale": 3,
+   "xVelocity": 5,
+   "yVelocity": 4,
+   "particle": 2
+  },
+  "attachDouble": {
+   "doubleDepth": 3,
+   "doubleClip": 2
+  },
+  "updateChildParticles": {
+   "i": 2,
+   "step": 3,
+   "spawned": 4,
+   "particlesPerFrame": 5
+  }
+ },
+ "reactionSplashParticleSpawner": {
+  "reactionSplashParticleSpawner": {
+   "poolDepth": 3
+  },
+  "checkForTrigger": {
+   "i": 2
+  }
+ },
+ "BarmanHand": {
+  "BarmanHand": {
+   "i": 2,
+   "angle": 3
+  },
+  "updateClip": {
+   "dy": 3,
+   "dx": 2,
+   "distance": 4
+  },
+  "easeToTarget": {
+   "dy": 3,
+   "dx": 2,
+   "distanceSquared": 4
+  },
+  "returnTweenHand": {
+   "targetFrame": 3
+  },
+  "pour": {
+   "burstIndex": 3
+  }
+ },
+ "CocktailGame": {
+  "createUseableDepths": {
+   "depth": 1
+  },
+  "popUseableDepth": {
+   "depth": 1
+  },
+  "randomRange": {
+   "value": 1
+  },
+  "placeBottles_set": {
+   "shelfOffsetX": 3,
+   "shelfOffsetY": 2
+  },
+  "placeBottles": {
+   "x": 4,
+   "y": 5,
+   "i": 3,
+   "bottle": 2
+  },
+  "updateBottles": {
+   "i": 2
+  },
+  "updateDynamics": {
+   "i": 3,
+   "j": 2
+  },
+  "mainLoop": {
+   "drinkColour": 3
+  }
+ },
+ "sprite387_miguel_frameaction_5": {
+  "": {
+   "drinkColour": 2
+  }
+ }
+}

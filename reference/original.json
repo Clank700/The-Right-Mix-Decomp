@@ -1,0 +1,8 @@
+{
+ "description": "Reference values of the original game used to verify rebuilds (no build step reads the original SWF).",
+ "original_file_sha256": "ede221ad99e031732a049409278ce45bc1602706045b95ab83756e72af8f23a7",
+ "original_file_bytes": 693558,
+ "decompressed_payload_sha256": "916f7178aa5662e75699a848df2e99f74b5a89cb118930510de132ff5587ff80",
+ "decompressed_payload_bytes": 980066,
+ "note": "The compressed original cannot be reproduced bit-for-bit (unknown deflate encoder); the decompressed payload can."
+}

@@ -1,0 +1,3 @@
+{"scenarios":[{"name":"calib","seed":777,"frames":1400,"ops":[
+ [3,"start"],[10,["pick",14]],[60,"pourDown"],[90,"pourUp"],[100,["pick",17]],[160,"pourDown"],[180,"pourUp"],
+ [200,"ice"],[270,"shakeDown"],[330,"shakeUp"],[360,"serve"]]}]}
